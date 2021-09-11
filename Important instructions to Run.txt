@@ -1,0 +1,24 @@
+1:-after downloading our oroject go to project path and open git/cmd 
+2:-run command "composer install"      
+3:-copy ".env.example" file  
+4:-paste this file at the same position and rename file to be ".env"  
+5:-run command "php artisan key:generate" 
+6:-open xampp control pannel 
+7:-run command "php artisan migrate:fresh" to download database and tables
+8:-run command "php artisan db:seed" to save data seved in the seeders in the users table and the products table
+9:- run command "php artisan serve" 
+ 
+NOTE: (1) to login as an admin you can insert 
+          email: admin@yahoo.com
+          and password: 123456admin
+
+      (2) to login as a user you can insert 
+          email: user@yahoo.com
+          and password: 123456user
+
+
+
+
+
+
+
